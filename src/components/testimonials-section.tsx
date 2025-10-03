@@ -15,7 +15,7 @@ export default function TestimonialsSection() {
                         Trusted by professionals worldwide
                     </h2>
                     <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-                        Don't just take my word for it. Here's what industry leaders and colleagues say about working with me.
+                        Don&apos;t just take my word for it. Here&apos;s what industry leaders and colleagues say about working with me.
                     </p>
                 </div>
 
@@ -31,7 +31,7 @@ export default function TestimonialsSection() {
                             <CardContent>
                                 <blockquote className="grid h-full grid-rows-[1fr_auto] gap-6">
                                     <p className="text-xl font-medium text-foreground leading-relaxed">
-                                        "{featuredTestimonial.quote}"
+                                        &ldquo;{featuredTestimonial.quote}&rdquo;
                                     </p>
 
                                     <div className="grid grid-cols-[auto_1fr] items-center gap-3">
@@ -73,7 +73,7 @@ export default function TestimonialsSection() {
                             <CardContent className="h-full pt-6">
                                 <blockquote className="grid h-full grid-rows-[1fr_auto] gap-6">
                                     <p className="text-lg font-medium text-foreground leading-relaxed">
-                                        "{testimonial.quote}"
+                                        &ldquo;{testimonial.quote}&rdquo;
                                     </p>
 
                                     <div className="grid grid-cols-[auto_1fr] items-center gap-3">

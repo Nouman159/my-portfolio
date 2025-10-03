@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
-import { ArrowRight, Link, Zap } from "lucide-react";
+import { ArrowRight, Link, Zap, Code, Server, Palette, Database, Smartphone, Cloud, Brain } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -27,11 +27,11 @@ export default function RadialOrbitalTimeline({
   const [expandedItems, setExpandedItems] = useState<Record<number, boolean>>(
     {}
   );
-  const [viewMode, setViewMode] = useState<"orbital">("orbital");
+  const [viewMode] = useState<"orbital">("orbital");
   const [rotationAngle, setRotationAngle] = useState<number>(0);
   const [autoRotate, setAutoRotate] = useState<boolean>(true);
   const [pulseEffect, setPulseEffect] = useState<Record<number, boolean>>({});
-  const [centerOffset, setCenterOffset] = useState<{ x: number; y: number }>({
+  const [centerOffset] = useState<{ x: number; y: number }>({
     x: 0,
     y: 0,
   });
@@ -155,15 +155,15 @@ export default function RadialOrbitalTimeline({
 
   const getIconComponent = (iconName: string) => {
     const icons: Record<string, React.ElementType> = {
-      Code: require("lucide-react").Code,
-      Server: require("lucide-react").Server,
-      Palette: require("lucide-react").Palette,
-      Database: require("lucide-react").Database,
-      Smartphone: require("lucide-react").Smartphone,
-      Cloud: require("lucide-react").Cloud,
-      Brain: require("lucide-react").Brain,
+      Code,
+      Server,
+      Palette,
+      Database,
+      Smartphone,
+      Cloud,
+      Brain,
     };
-    return icons[iconName] || require("lucide-react").Code;
+    return icons[iconName] || Code;
   };
 
   return (
