@@ -1,0 +1,81 @@
+{
+  "skills": [
+    {
+      "id": 1,
+      "title": "Frontend",
+      "date": "2020",
+      "content": "React, Next.js, TypeScript, Tailwind CSS, and modern web development frameworks.",
+      "category": "Development",
+      "icon": "Code",
+      "relatedIds": [2, 3],
+      "status": "completed",
+      "energy": 95
+    },
+    {
+      "id": 2,
+      "title": "Backend",
+      "date": "2021",
+      "content": "Node.js, Express, Python, Django, and server-side development expertise.",
+      "category": "Development",
+      "icon": "Server",
+      "relatedIds": [1, 4],
+      "status": "completed",
+      "energy": 90
+    },
+    {
+      "id": 3,
+      "title": "Design",
+      "date": "2019",
+      "content": "UI/UX design, Figma, Adobe Creative Suite, and user-centered design principles.",
+      "category": "Design",
+      "icon": "Palette",
+      "relatedIds": [1, 5],
+      "status": "completed",
+      "energy": 85
+    },
+    {
+      "id": 4,
+      "title": "Database",
+      "date": "2021",
+      "content": "PostgreSQL, MongoDB, Redis, and database optimization techniques.",
+      "category": "Database",
+      "icon": "Database",
+      "relatedIds": [2, 6],
+      "status": "completed",
+      "energy": 88
+    },
+    {
+      "id": 5,
+      "title": "Mobile",
+      "date": "2022",
+      "content": "React Native, Flutter, and cross-platform mobile application development.",
+      "category": "Mobile",
+      "icon": "Smartphone",
+      "relatedIds": [3, 7],
+      "status": "in-progress",
+      "energy": 75
+    },
+    {
+      "id": 6,
+      "title": "DevOps",
+      "date": "2022",
+      "content": "Docker, Kubernetes, AWS, CI/CD pipelines, and cloud infrastructure management.",
+      "category": "DevOps",
+      "icon": "Cloud",
+      "relatedIds": [4, 7],
+      "status": "in-progress",
+      "energy": 70
+    },
+    {
+      "id": 7,
+      "title": "AI/ML",
+      "date": "2023",
+      "content": "Machine Learning, Python, TensorFlow, and artificial intelligence integration.",
+      "category": "AI/ML",
+      "icon": "Brain",
+      "relatedIds": [5, 6],
+      "status": "pending",
+      "energy": 60
+    }
+  ]
+}
