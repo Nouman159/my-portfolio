@@ -1,0 +1,23 @@
+[
+  {
+    "slug": "project-one",
+    "title": "Project One",
+    "description": "This is a description for project one.",
+    "image": "/file.svg",
+    "details": "More detailed information about project one. It was built with React and Node.js."
+  },
+  {
+    "slug": "project-two",
+    "title": "Project Two",
+    "description": "This is a description for project two.",
+    "image": "/globe.svg",
+    "details": "More detailed information about project two. It was built with Next.js and Tailwind CSS."
+  },
+  {
+    "slug": "project-three",
+    "title": "Project Three",
+    "description": "This is a description for project three.",
+    "image": "/window.svg",
+    "details": "More detailed information about project three. It was built with Vue and Firebase."
+  }
+]
