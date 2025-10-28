@@ -1,0 +1,14 @@
+name: Hello CI/CD World
+
+on: [push]  # triggers every time you push to any branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # GitHub-hosted Linux VM
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Say Hello
+        run: echo "Hello, CI/CD World! 👋"
